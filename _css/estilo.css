@@ -1,5 +1,16 @@
 @charset "UTF-8";
 
+/*Pode-se utilizar fontes externas - google fonts, por exemplo.
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+*/
+@font-face{
+    font-family: 'fonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+}
+
+
 	body {
        		background-color: #dddddd; 
        		color: rgba(0,0,0,1);
@@ -41,7 +52,7 @@ Formatação de imagens com legendas
     }
 
     header#cabecalho h1{
-        font-family: Arial, sans-serif;
+        font-family: 'fonteLogo', sans-serif;
         font-size: 30pt;
         color: #606060;
         text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -50,6 +61,7 @@ Formatação de imagens com legendas
     }
 
     header#cabecalho h2{
+        /*font-family: 'Titillium Web', sans-serif;*/
         font-family: Arial, sans-serif;
         color:#888888;
         font-size: 15pt;
