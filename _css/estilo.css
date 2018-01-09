@@ -5,6 +5,9 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 
 */
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300i');
+
 @font-face{
     font-family: 'fonteLogo';
     src: url("../_fonts/bubblegum-sans-regular.otf");
@@ -17,7 +20,7 @@
     }
 
     div#interface{
-        width: 1000px;
+        width: 1100px;
         background-color: #ffffff;
         margin: -5px auto 0px auto; 
         padding: 10px;
@@ -61,8 +64,8 @@ Formatação de imagens com legendas
     }
 
     header#cabecalho h2{
-        /*font-family: 'Titillium Web', sans-serif;*/
-        font-family: Arial, sans-serif;
+        font-family: 'Titillium Web', sans-serif;
+        /*font-family: Arial, sans-serif;*/
         color:#888888;
         font-size: 15pt;
         padding: 0px;
@@ -136,4 +139,26 @@ Formatação de imagens com legendas
     nav#menu a:hover{
         color: white;
         /*text-decoration: underline; */
+    }
+
+    section#corpo{
+        display: block;
+        width: 600px;
+        float: left;
+        border-right: 1px solid #606060;
+        padding-right: 15px;  
+    }
+
+    aside#lateral{
+        display: block;
+        width: 400px;
+        float: right;
+    }
+
+    footer#rodape{
+        clear: both;
+        border-top: 1px solid #606060;
+    }
+    footer#rodape p{
+        text-align: center;
     }
