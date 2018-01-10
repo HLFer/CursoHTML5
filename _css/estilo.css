@@ -29,7 +29,7 @@
 
     p {
        		text-align: justify;
-       		text-indent: 50px;
+       		text-indent: 20px;
     }
 
     header#cabecalho img#icone{
@@ -149,9 +149,26 @@ Formatação de imagens com legendas
         padding-right: 15px;  
     }
 
+    table#tabelaspec{
+
+        border: 1px solid #606060;
+        border-spacing: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    table#tabelaspec td{
+
+        border: 1px solid #606060;
+        padding: 10px;
+        text-align: right;
+        vertical-align: middle;
+
+    }
+
     aside#lateral{
         display: block;
-        width: 400px;
+        width: 475px;
         float: right;
     }
 
